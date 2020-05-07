@@ -8,8 +8,14 @@
 <body>
     <form action="submit" class="translate">
         <input type="text" class="translate__input">
-        <input type="checkbox" lang='ru-en' class="translate__checkbox">
-        <input type="checkbox" lang='en-ru' class="translate__checkbox">
+        <div class="ru-en">
+            <span>С русского на английский</span>
+            <input type="checkbox" lang='ru-en' class="translate__checkbox">
+        </div>
+        <div class="en-ru">
+            <span>С английского на русский</span>
+            <input type="checkbox" lang='en-ru' class="translate__checkbox">
+        </div>
         <button type='submit' class="translate__button"></button>
     </form>
     <div class="result">
